@@ -18,6 +18,9 @@ const TodoList:React.FC = () => {
 
   return(
     <div className="todolist">
+      <div className="todo-quantity">
+        <span className="todo-num">{todo.length}</span>
+      </div>
       {todo.map(data => (
         <div key={data.id} className="todo-item">
           <div className="todo-title">

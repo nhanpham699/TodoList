@@ -21,7 +21,7 @@ const Header:React.FC = () => {
     return (
       <div className="header">
         <h2>Welcome</h2>
-        <h3>To get started, add some items to your list</h3>
+        <h3>Add some items to your list</h3>
         <div className="add-bar">
           <TextField 
           onChange={(e) => setItem(e.target.value)}
