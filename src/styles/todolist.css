@@ -1,0 +1,16 @@
+.todolist {
+    margin: auto;
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 60%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.todo-item {
+    display: flex;
+}
+.bin-icon:hover {
+    cursor: pointer;
+    color: black;
+    transition: .5s;
+}

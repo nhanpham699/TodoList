@@ -1,0 +1,19 @@
+.header {
+    margin: auto;
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .add-bar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .add-button {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
